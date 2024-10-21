@@ -1,7 +1,9 @@
 {
   "dependencies": {
     "com.unity.render-pipelines.universal": "17.0.3",
+    "jp.keijiro.metamesh": "1.2.0",
     "jp.keijiro.minis": "1.0.10",
+    "jp.keijiro.vfx-extra": "1.0.0",
     "jp.keijiro.vfxgraphassets": "3.3.0"
   },
   "scopedRegistries": [
