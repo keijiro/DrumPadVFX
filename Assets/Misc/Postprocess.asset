@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
   m_Name: Vignette
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   color:
     m_OverrideState: 0
     m_Value: {r: 0, g: 0, b: 0, a: 1}
@@ -115,6 +115,22 @@ MonoBehaviour:
   rounded:
     m_OverrideState: 0
     m_Value: 0
+--- !u!114 &-1243894664839298149
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81180773991d8724ab7f2d216912b564, type: 3}
+  m_Name: ChromaticAberration
+  m_EditorClassIdentifier: 
+  active: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.33
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,11 +144,12 @@ MonoBehaviour:
   m_Name: Postprocess
   m_EditorClassIdentifier: 
   components:
-  - {fileID: -2183175816062377686}
+  - {fileID: -7956267503970526580}
   - {fileID: 611185518878118070}
   - {fileID: -3091690446568131429}
   - {fileID: 4544003539534599894}
-  - {fileID: -7956267503970526580}
+  - {fileID: -1243894664839298149}
+  - {fileID: -2183175816062377686}
 --- !u!114 &611185518878118070
 MonoBehaviour:
   m_ObjectHideFlags: 3
